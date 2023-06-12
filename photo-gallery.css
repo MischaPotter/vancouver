@@ -1,0 +1,59 @@
+/* CSS Document */
+
+body {
+	font-family: 'PT Sans', sans-serif;
+	background-color: #ECECEC;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	background-color: #73C5ED;
+}
+
+li {
+	float: left;
+}
+
+li a, .dropbtn1, .dropbtn2, .dropbtn3, .dropbtn4 {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover, .dropdown1:hover .dropbtn1, .dropdown2:hover .dropbtn2, .dropdown3:hover .dropbtn3, .dropdown4:hover .dropbtn4 {
+	background-color: #3C9BC9
+}
+
+li.dropdown1, li.dropdown2, li.dropdown3, li.dropdown4 {
+	display: inline-block;
+}
+
+
+.dropdown-content1, .dropdown-content2, .dropdown-content3, .dropdown-content4 {
+	display: none;
+	position: absolute;
+	background-color: #AFAFAF;
+	min-width: 100px;
+	z-index: 1;
+}
+
+.dropdown-content1 a, .dropdown-content2 a, .dropdown-content3 a, .dropdown-content4 a {
+	color: black;
+	text-decoration: none;
+	padding: 12px 16px;
+	display: block;
+	text-align: left;
+}
+
+.dropdown-content1 a:hover, .dropdown-content2 a:hover, .dropdown-content3 a:hover, .dropdown-content4 a:hover {
+	background-color: #3C9BC9;
+}
+
+.dropdown1:hover .dropdown-content1, .dropdown2:hover .dropdown-content2, .dropdown3:hover .dropdown-content3, .dropdown4:hover .dropdown-content4{
+	display: block;
+}
