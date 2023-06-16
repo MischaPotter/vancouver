@@ -78,11 +78,24 @@ li.dropdown1, li.dropdown2, li.dropdown3, li.dropdown4 {
 }
 #lynnvalley-text {
 	font-size: 25px;
-	margin-right: 300px;
+	margin-right: 330px;
 }
 
 #title {
 	text-align: center;
 	font-size: 40px;
 	text-shadow: 5px 5px 3px lightblue;
+}
+
+#lynn-valley-img {
+	float: left;
+	border-radius: 100px;
+	margin: 0px 70px 20px 40px;
+}
+
+#cat-ad {
+	float: right;
+	position: relative;
+	bottom: 400px;
+	left: 300px;
 }
