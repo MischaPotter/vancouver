@@ -1,15 +1,88 @@
 <!doctype html>
 <html>
 <head>
-<meta charset="utf-8">
+	<meta charset="utf-8">
+	<title>Lonsdale Quay</title>
+	<link rel="stylesheet" href="bibliography.css">
+	<link rel="icon" type="image/x-icon" href="mountain.svg">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 <title>Untitled Document</title>
 </head>
 
 <body>
+	
+	<a href="index.html" style="text-decoration: none; color: black;">
+		<h1 style="text-align: center; font-size: 50px;">
+			<img src="mountain.svg" class="mountain-logo" alt="a mountain icon in black and white">
+			&#160;&#160;North Vancouver &#160;&#160;
+			<img src="mountain.svg" class="mountain-logo" alt="a mountain icon in black and white">
+		</h1>
+	</a>
+		
 	<ul>
-		<li>https://en.wikipedia.org/wiki/North_Vancouver_(city)</li>
-		<li>https://www.dnv.org/programs-and-services/lynn-valley</li>
+		<li id="home"><a href="index.html">Home</a></li>
+		<li class="dropdown1">
+			<a class="dropbtn1">Places</a>
+			<div class="dropdown-content1">
+				<a href="lonsdale-quay.html">Lonsdale Quay</a>
+				<a href="lynn-valley.html">Lynn Valley</a>
+				<a href="#">The Mountains</a>
+			</div>
+		</li>
+		
+		<li class="dropdown2">
+			<a class="dropbtn2">Activities</a>
+			<div class="dropdown-content2">
+				<a href="#">Eat</a>
+				<a href="#">Travel</a>
+			</div>
+		</li>
+		<li class="dropdown3">
+			<a class="dropbtn3">History</a>
+			<div class="dropdown-content3">
+				<a href="#">Vancouver</a>
+				<a href="#">Indigenous Peoples</a>
+			</div>
+		</li>
+		<li class="dropdown4">
+			<a class="dropbtn4">Misc.</a>
+			<div class="dropdown-content4">
+				<a href="photo-gallery.html">Photo Gallery</a>
+				<a href="bibliography.html">Bibliography</a>
+			</div>
+		</li>
 	</ul>
-	<br>
+
+	
+	<table class="bibliography-table">
+		<tr>
+			<th style="width: 20%;">Website</th>
+			<th>Used for?</th>
+			<th style="width: 20%">Citation</th>
+		</tr>
+		
+		<tr>
+			<td>Wikipedia - https://en.wikipedia.org/wiki/North_Vancouver_(city)</td>
+			<td>Description of North Vancouver on Home Page</td>
+			<td>Wikimedia Foundation. (2023, June 11). North Vancouver (city). Wikipedia. https://en.wikipedia.org/wiki/North_Vancouver_(city)</td>
+		</tr>
+		
+		<tr>
+			<td>District of North Vancouver - https://www.dnv.org/programs-and-services/lynn-valley</td>	
+			<td>Description of Lynn Valley Page</td>
+			<td>Lynn Valley. District of North Vancouver. (n.d.). https://www.dnv.org/programs-and-services/lynn-valley</td>
+		</tr>
+		
+		<tr>
+			<td>Vancouver's North Shore - https://www.vancouversnorthshore.com/attractions/lonsdale-quay-market/</td>
+			<td>Description of Lonsdale Quay Page</td>
+			<td>The Quay Market and Food Hall. Vancouver’s North Shore. (2022, August 30). https://www.vancouversnorthshore.com/attractions/lonsdale-quay-market/ </td>
+		</tr>
+	</table>
+
+	<img src="ad.png" id="ad">
+	<footer id="footer">Created by Mischa Potter</footer>
 </body>
 </html>

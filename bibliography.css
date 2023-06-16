@@ -58,12 +58,6 @@ li.dropdown1, li.dropdown2, li.dropdown3, li.dropdown4 {
 	display: block;
 }
 
-.mountain-logo {
-	width: 60px; 
-	position: relative; 
-	top: 5px;
-}
-
 #footer {
 	background-color: #3C9BC9;
 	z-index: 1;
@@ -74,40 +68,48 @@ li.dropdown1, li.dropdown2, li.dropdown3, li.dropdown4 {
 	height: 25px;
 	text-align: center;
 }
-.gallery {
-	margin: 20px 10px 10px 10px;
-	float: left;
-	width: 330px;
-	border: 5px solid #6B64FF;
+
+.mountain-logo {
+	width: 60px; 
+	position: relative; 
+	top: 5px;
+}
+
+.bibliography-table {
+	border-collapse: collapse;
+	border: 3px solid #707070;
+	margin: 30px;
+	width: 80%;
+}
+
+.bibliography-table th {
+	background-color: #00BD33;
+	font-size: 25px;
+	border: 3px solid #707070;
+}
+
+.bibliography-table td {
+	border: 3px solid #707070;
+	padding: 10px;
+	font-size: 20px;
+}
+
+.bibliography-table tr:nth-child(odd) {
+	background-color: whitesmoke;
+}
+
+.bibliography-table tr:nth-child(even) {
+	background-color: #DBDBDB;
+}
+
+.bibliography-table td:hover {
+	background-color: #ECECEC;
+}
+
+#ad {
+	float: right;
+	width: 200px;
 	position: relative;
-	left: 30px;
-	border-bottom-left-radius: 30px;
-	border-top-right-radius: 30px;
-}
-
-.gallery-near-footer {
-	margin: 0px 10px 20px 10px;
-	float: left;
-	width: 330px;
-	border: 5px solid #6B64FF;
-	position: relative;
-	left: 30px;
-	border-bottom-left-radius: 30px;
-	border-top-right-radius: 30px;
-}
-
-.gallery img, .gallery-near-footer img {
-	width: 330px;
-	height: 290px;
-	border-top-right-radius: 25px;
-}
-
-.gallery:hover, .gallery-near-footer:hover {
-	border: 5px solid #352CFD;
-}
-
-.desc {
-	padding: 15px;
-	text-align: center;
-	font-size: 30px;
+	bottom: 300px;
+	right: 100px;
 }

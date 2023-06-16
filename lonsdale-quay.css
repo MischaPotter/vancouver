@@ -66,7 +66,7 @@ li.dropdown1, li.dropdown2, li.dropdown3, li.dropdown4 {
 
 #home-text {
 	font-size: 25px;
-	margin: 0px 10px;
+	margin: 10px 300px 5px 175px;
 }
 
 #footer {
@@ -82,18 +82,19 @@ li.dropdown1, li.dropdown2, li.dropdown3, li.dropdown4 {
 
 #quay-img {
 	float: right;
-	width: 300px;
-	height: 200px;
+	width: 375px;
+	height: 250px;
 	z-index: -1;
 	border-radius: 30px;
 	box-shadow: 1px 1px 5px 5px #BBBBBB;
 	position: relative;
 	bottom: 40px;
+	left: 175px;
 }
 
 
 .quay-images {
-	margin: 5px;
+	margin: 50px 5px;
 	height: 300px;
 	display: flex;
 	justify-content: space-around;
@@ -118,11 +119,6 @@ hr {
 .border {
 	border: solid 5px black;
 	border-radius: 100px;
-}
-
-
-#disappear {
-	display: none;
 }
 
 .mountain-logo {
