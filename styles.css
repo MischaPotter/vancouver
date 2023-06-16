@@ -1,4 +1,4 @@
-/* CSS Document */
+3/* CSS Document */
 
 body {
 	font-family: 'PT Sans', sans-serif;
@@ -113,14 +113,14 @@ li.dropdown1, li.dropdown2, li.dropdown3, li.dropdown4 {
 	display: flex;
 	justify-content: space-around;
 }
-
+/*
 #map-text {
 	position: relative;
 	top: 100px;
 	font-size: 25px;
 	width: 600px;
 }
-
+*/
 #line {
 	border: solid 1px black;
 }
